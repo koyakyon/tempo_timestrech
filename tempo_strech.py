@@ -461,7 +461,7 @@ def TimeStretch_STEREO_LOW(wf0, rate, ch):
     
 
 if (__name__ == '__main__'):
-    fname = 'crazy.wav'
+    fname = '悲愴第二楽章.mp3'
     wf = wave.open(fname, 'r')
     ch = wf.getnchannels() 
 
